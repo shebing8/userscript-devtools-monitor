@@ -1,0 +1,8 @@
+debug-profile/
+telemetry/
+*.log
+*.mhtml
+*.har
+node_modules/
+.DS_Store
+Thumbs.db
