@@ -4,11 +4,14 @@ param(
     [string]$Browser = 'chrome',
     [int]$DebugPort = 9222,
     [string]$Url = 'about:blank',
-    [string]$ProfileDir = (Join-Path $PSScriptRoot 'debug-profile'),
+    [string]$ProfileDir = '',
     [string]$ExtensionDir = ''
 )
 
 $ErrorActionPreference = 'Stop'
+if (-not $ProfileDir) {
+    $ProfileDir = Join-Path $PSScriptRoot 'debug-profile'
+}
 
 $candidates = if ($Browser -eq 'chrome') {
     @(
@@ -58,4 +61,11 @@ $arguments += (Quote-ProcessArgument $Url)
 Write-Host "启动: $exe" -ForegroundColor Cyan
 Write-Host "CDP:  http://127.0.0.1:$DebugPort" -ForegroundColor Cyan
 Write-Host "Profile: $resolvedProfile" -ForegroundColor Cyan
-Start-Process -FilePath $exe -ArgumentList $arguments
+$cmdLine = "$(Quote-ProcessArgument $exe) $($arguments -join ' ')"
+$cimResult = Invoke-CimMethod -ClassName Win32_Process -MethodName Create -Arguments @{
+    CommandLine = $cmdLine
+    CurrentDirectory = $PSScriptRoot
+} -ErrorAction SilentlyContinue
+if (-not $cimResult -or $cimResult.ReturnValue -ne 0) {
+    Start-Process -FilePath $exe -ArgumentList $arguments
+}

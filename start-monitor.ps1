@@ -1,4 +1,4 @@
-[CmdletBinding()]
+﻿[CmdletBinding()]
 param(
     [int]$Port = 9222,
     [string]$Match = '',
