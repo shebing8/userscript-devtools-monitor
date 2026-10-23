@@ -29,20 +29,15 @@ $candidates = if ($Browser -eq 'chrome') {
 
 $exe = $candidates | Where-Object { $_ -and (Test-Path -LiteralPath $_) } | Select-Object -First 1
 if (-not $exe) {
-    throw "未找到 $Browser。检查浏览器安装路径，或修改 launch-debug-browser.ps1 中的 candidates。"
+    throw "Browser not found: $Browser"
 }
 
 $resolvedProfile = [System.IO.Path]::GetFullPath($ProfileDir)
 New-Item -ItemType Directory -Force -Path $resolvedProfile | Out-Null
 
-# Start-Process 会把 ArgumentList 拼成单个命令行；显式引用可保留 URL/路径中的空格。
-function Quote-ProcessArgument([string]$Value) {
-    return '"' + ($Value -replace '(\\*)"', '$1$1\"' -replace '(\\+)$', '$1$1') + '"'
-}
-
-$arguments = @(
+$argList = @(
     "--remote-debugging-port=$DebugPort",
-    "--user-data-dir=$(Quote-ProcessArgument $resolvedProfile)",
+    "--user-data-dir=$resolvedProfile",
     '--no-first-run',
     '--no-default-browser-check',
     '--disable-features=TranslateUI'
@@ -51,21 +46,18 @@ $arguments = @(
 if ($ExtensionDir) {
     $resolvedExtension = [System.IO.Path]::GetFullPath($ExtensionDir)
     if (-not (Test-Path -LiteralPath (Join-Path $resolvedExtension 'manifest.json'))) {
-        throw "扩展目录缺少 manifest.json: $resolvedExtension"
+        throw "Extension missing manifest.json: $resolvedExtension"
     }
-    $arguments += "--load-extension=$(Quote-ProcessArgument $resolvedExtension)"
+    $argList += "--load-extension=$resolvedExtension"
     Write-Host "Extension: $resolvedExtension" -ForegroundColor Cyan
 }
-$arguments += (Quote-ProcessArgument $Url)
 
-Write-Host "启动: $exe" -ForegroundColor Cyan
+if ($Url) {
+    $argList += $Url
+}
+
+Write-Host "Starting: $exe" -ForegroundColor Cyan
 Write-Host "CDP:  http://127.0.0.1:$DebugPort" -ForegroundColor Cyan
 Write-Host "Profile: $resolvedProfile" -ForegroundColor Cyan
-$cmdLine = "$(Quote-ProcessArgument $exe) $($arguments -join ' ')"
-$cimResult = Invoke-CimMethod -ClassName Win32_Process -MethodName Create -Arguments @{
-    CommandLine = $cmdLine
-    CurrentDirectory = $PSScriptRoot
-} -ErrorAction SilentlyContinue
-if (-not $cimResult -or $cimResult.ReturnValue -ne 0) {
-    Start-Process -FilePath $exe -ArgumentList $arguments
-}
+
+Start-Process -FilePath $exe -ArgumentList $argList
