@@ -1,0 +1,45 @@
+{
+  "url": "https://zchat.z.ai/c/b2f4ab9a-85c2-4805-9375-a1e0844f8525",
+  "ui": {
+    "stats": {
+      "config": 1,
+      "models": 1,
+      "chats": 8,
+      "creates": 0,
+      "forced": 0
+    },
+    "state": {
+      "level": "max",
+      "web": false
+    },
+    "chips": [
+      {
+        "kind": "think",
+        "text": "深度思考 · 最高",
+        "active": "true"
+      }
+    ],
+    "nativeGlobe": {
+      "found": true,
+      "active": "false"
+    },
+    "composerBtnCount": 8,
+    "composerText": "WeChat 深度思考 · 最高 GLM-5.3"
+  },
+  "cycle": {
+    "seen": [
+      "深度思考 · 最高",
+      "深度思考",
+      "深度思考 · 低",
+      "深度思考 · 高",
+      "深度思考 · 最高"
+    ],
+    "stored": "off"
+  },
+  "web": {
+    "via": "none"
+  },
+  "sent": null,
+  "lastBody": null,
+  "wsFrames": []
+}

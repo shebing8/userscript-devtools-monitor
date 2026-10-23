@@ -1,0 +1,16 @@
+===== a-raw  btnCount=5 =====
+menuText: GLM-5.3-Flash GLM-5.3 GLM-5.2 思考强度 最高
+  tooltip: model-item
+  tooltip: model-item
+  tooltip: model-item
+  tooltip: 此对话已缓存当前的上下文。切换后，下次发送消息时将重新读取完整历史记录。
+  slider: label=最高 min=0 max=2 now=2 disabled=false
+
+===== b-raw  btnCount=4 =====
+menuText: GLM-5.3-Flash GLM-5.3 GLM-5.2 思考强度 最高
+  tooltip: model-item
+  tooltip: model-item
+  tooltip: model-item
+  tooltip: 此对话已缓存当前的上下文。切换后，下次发送消息时将重新读取完整历史记录。
+  slider: label=最高 min=0 max=2 now=2 disabled=false
+

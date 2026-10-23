@@ -1,0 +1,160 @@
+{
+  "url": "https://zchat.z.ai/c/b2f4ab9a-85c2-4805-9375-a1e0844f8525",
+  "composer": {
+    "href": "https://zchat.z.ai/c/b2f4ab9a-85c2-4805-9375-a1e0844f8525",
+    "buttons": [
+      {
+        "i": 0,
+        "id": "upload-file-button",
+        "label": "More",
+        "text": "",
+        "glyph": "M8 2.16667V8M8 8V13.8333M8 8H2.16667M8 8H13.8333",
+        "disabled": false
+      },
+      {
+        "i": 1,
+        "id": "bits-c68",
+        "label": "连接与通知",
+        "text": "WeChat",
+        "glyph": "M6.25493 0.00075889C2.83869 -0.0494616 0 2.39979 0 5.28841C0 6.9",
+        "disabled": false
+      },
+      {
+        "i": 2,
+        "id": "model-selector-input-glm-5_3-button",
+        "label": "选择一个模型",
+        "text": "GLM-5.3",
+        "glyph": "M4 6L8 10L12 6",
+        "disabled": false
+      },
+      {
+        "i": 3,
+        "id": "send-message-button",
+        "label": null,
+        "text": "",
+        "glyph": "M8 13.3333V2.66667M8 2.66667L4 6.66667M8 2.66667L12 6.66667",
+        "disabled": true
+      }
+    ],
+    "composerText": "WeChat GLM-5.3",
+    "thinkingNodes": 1,
+    "hasDeepThinkText": false,
+    "hasWebSearchText": false
+  },
+  "stored": [
+    {
+      "k": "settings",
+      "v": "{\"timezone\":\"Asia/Shanghai\"}"
+    },
+    {
+      "k": "last_selected_agent_model",
+      "v": "[\"glm-5.3\"]"
+    },
+    {
+      "k": "shouldSuggestModel",
+      "v": "1"
+    }
+  ],
+  "api": [
+    {
+      "url": "https://zchat.z.ai/api/v1/auths/",
+      "status": 200,
+      "len": 916
+    },
+    {
+      "url": "https://zchat.z.ai/api/config",
+      "status": 200,
+      "len": 2389
+    },
+    {
+      "url": "https://zchat.z.ai/api/v1/users/user/settings",
+      "status": 200,
+      "len": 35
+    },
+    {
+      "url": "https://zchat.z.ai/api/models",
+      "status": 200,
+      "len": 262182
+    },
+    {
+      "url": "https://zchat.z.ai/api/v1/user-access/accessible?resource=qrcode-bind",
+      "status": 200,
+      "len": 69
+    },
+    {
+      "url": "https://zchat.z.ai/api/agent/v1/bot/channel?biz_type=general_agent",
+      "status": 200,
+      "len": 646
+    },
+    {
+      "url": "https://zchat.z.ai/api/v1/chats/b2f4ab9a-85c2-4805-9375-a1e0844f8525",
+      "status": 200,
+      "len": 1588
+    },
+    {
+      "url": "https://zcode.z.ai/api/v1/zai/blank.gif?pd=zai&bt=pv&tm=pc&ct=Dialogue+page_Exposure&ctvl=&usid=d70078d1-7e0e-48ea-b575-1b45ae0f22cd&fr=default&pvid=&_n_is_guest=0&url=%2Fc%2Fb2f4ab9a-85c2-4805-9375-a1e0844f8525%3Ffr%3Ddefault&ctnm=&extra=&pds=&pdt=&ctid=&eid=af29eefb-1484-4e97-b71f-4f40fab06e98",
+      "status": 200,
+      "len": 0
+    },
+    {
+      "url": "https://zchat.z.ai/api/v1/projects",
+      "status": 404,
+      "len": 22
+    },
+    {
+      "url": "https://zchat.z.ai/api/v1/chats/subagents?chat_id=b2f4ab9a-85c2-4805-9375-a1e0844f8525",
+      "status": 200,
+      "len": 11
+    },
+    {
+      "url": "https://zchat.z.ai/api/v1/chats/b2f4ab9a-85c2-4805-9375-a1e0844f8525/tags",
+      "status": 200,
+      "len": 2
+    },
+    {
+      "url": "https://zchat.z.ai/api/v1/users/user/settings",
+      "status": 200,
+      "len": 35
+    },
+    {
+      "url": "https://zchat.z.ai/api/v1/chats/b2f4ab9a-85c2-4805-9375-a1e0844f8525/messages/batch",
+      "status": 200,
+      "len": 6519
+    },
+    {
+      "url": "https://zchat.z.ai/api/v1/chats/?page=1&type=all&channel=zai-web&project_id=none",
+      "status": 200,
+      "len": 19183
+    },
+    {
+      "url": "https://zcode.z.ai/api/v1/zai/blank.gif?pd=zai&bt=pv&tm=pc&ct=landingpage_pv&ctvl=&usid=d70078d1-7e0e-48ea-b575-1b45ae0f22cd&fr=default&pvid=&_n_is_guest=0&url=%2Fc%2Fb2f4ab9a-85c2-4805-9375-a1e0844f8525%3Ffr%3Ddefault&ctnm=&extra=&pds=&pdt=&ctid=&eid=907ab2fd-f838-4f6b-a99c-3792d593b4c4",
+      "status": 200,
+      "len": 0
+    },
+    {
+      "url": "https://zchat.z.ai/api/v1/cronjobs?zaiUserId=d70078d1-7e0e-48ea-b575-1b45ae0f22cd&page=1&pageSize=100",
+      "status": 200,
+      "len": 96
+    },
+    {
+      "url": "https://zchat.z.ai/api/v1/im/session/chat/b2f4ab9a-85c2-4805-9375-a1e0844f8525/notify-channels",
+      "status": 200,
+      "len": 106
+    },
+    {
+      "url": "https://zcode.z.ai/api/v1/zai/blank.gif?pd=zai&bt=er&tm=pc&ct=global_network_error&ctvl=HTTP+status+Error%3A+404+Not+Found&usid=d70078d1-7e0e-48ea-b575-1b45ae0f22cd&fr=default&pvid=&_n_is_guest=0&url=%2Fc%2Fb2f4ab9a-85c2-4805-9375-a1e0844f8525%3Ffr%3Ddefault&ctnm=&extra=&pds=&pdt=&ctid=&eid=1590b704-f700-4512-8006-fe25a555ae62",
+      "status": 200,
+      "len": 0
+    },
+    {
+      "url": "https://zchat.z.ai/api/v1/storage/versions/58568c66-6318-4c90-b820-c6573efbce14/files?prefix=download",
+      "status": 200,
+      "len": 46
+    },
+    {
+      "url": "https://zcode.z.ai/api/v1/zai/blank.gif?pd=zai&bt=er&tm=pc&ct=global_network_error&ctvl=Failed+to+fetch&usid=d70078d1-7e0e-48ea-b575-1b45ae0f22cd&fr=default&pvid=&_n_is_guest=0&url=%2Fc%2Fb2f4ab9a-85c2-4805-9375-a1e0844f8525%3Ffr%3Ddefault&ctnm=&extra=&pds=&pdt=&ctid=&eid=16d6c0b5-0fd2-448c-99de-278a866a2bb2",
+      "status": 200,
+      "len": 0
+    }
+  ]
+}

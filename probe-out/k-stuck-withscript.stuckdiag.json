@@ -1,0 +1,320 @@
+{
+  "script": "../zai-restore-classic-composer.user.js",
+  "sent": {
+    "clicked": true,
+    "t": 1792764528114
+  },
+  "curve": [
+    {
+      "t": 14969,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 16982,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 18996,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 21003,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 23013,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 25024,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 27036,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 29041,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 31048,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 33063,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 35080,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 37085,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 39103,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 41122,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 43135,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 45151,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 47163,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 49168,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 51180,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 53194,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 55205,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 57210,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 59224,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 61240,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 63247,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    }
+  ],
+  "events": [
+    {
+      "t": 267,
+      "k": "log.error",
+      "text": "network Failed to load resource: net::ERR_CONNECTION_CLOSED"
+    },
+    {
+      "t": 267,
+      "k": "log.warning",
+      "text": "other Manifest: property 'start_url' ignored, should be same origin as document."
+    },
+    {
+      "t": 268,
+      "k": "log.error",
+      "text": "network Failed to load resource: net::ERR_CONNECTION_CLOSED"
+    },
+    {
+      "t": 586,
+      "k": "net.send",
+      "m": "GET",
+      "u": "https://zchat.z.ai/api/v1/chats/f5368b08-004d-4470-aa96-61bee1e6d77e"
+    },
+    {
+      "t": 586,
+      "k": "net.send",
+      "m": "GET",
+      "u": "https://zchat.z.ai/api/v1/chats/all/tags"
+    },
+    {
+      "t": 733,
+      "k": "net.send",
+      "m": "GET",
+      "u": "https://zchat.z.ai/api/v1/chats/pinned"
+    },
+    {
+      "t": 735,
+      "k": "net.send",
+      "m": "GET",
+      "u": "https://zchat.z.ai/api/v1/chats/subagents?chat_id=f5368b08-004d-4470-aa96-61bee1e6d77e"
+    },
+    {
+      "t": 841,
+      "k": "net.send",
+      "m": "GET",
+      "u": "https://zchat.z.ai/api/v1/chats/f5368b08-004d-4470-aa96-61bee1e6d77e/tags"
+    },
+    {
+      "t": 963,
+      "k": "net.send",
+      "m": "GET",
+      "u": "https://zchat.z.ai/api/v1/chats/?page=1&type=default"
+    },
+    {
+      "t": 1024,
+      "k": "net.send",
+      "m": "POST",
+      "u": "https://zchat.z.ai/api/v1/chats/f5368b08-004d-4470-aa96-61bee1e6d77e/messages/batch"
+    },
+    {
+      "t": 1116,
+      "k": "net.resp",
+      "s": 200,
+      "ct": "application/json",
+      "u": "https://zchat.z.ai/api/v1/chats/f5368b08-004d-4470-aa96-61bee1e6d77e/messages/batch"
+    },
+    {
+      "t": 12949,
+      "k": "sent",
+      "sent": {
+        "clicked": true,
+        "t": 1792764528114
+      }
+    },
+    {
+      "t": 12950,
+      "k": "net.send",
+      "m": "GET",
+      "u": "https://zchat.z.ai/api/v1/chats/f5368b08-004d-4470-aa96-61bee1e6d77e"
+    },
+    {
+      "t": 13194,
+      "k": "net.send",
+      "m": "GET",
+      "u": "https://zchat.z.ai/api/v1/chats/?page=1&type=default"
+    },
+    {
+      "t": 13194,
+      "k": "net.send",
+      "m": "POST",
+      "u": "https://zchat.z.ai/api/v2/chat/completions?timestamp=1792764528353&requestId=b8e335fd-2e72-44e5-9743-03c4456865d0&user_id=d70078d1"
+    },
+    {
+      "t": 14274,
+      "k": "net.resp",
+      "s": 200,
+      "ct": "text/event-stream",
+      "u": "https://zchat.z.ai/api/v2/chat/completions?timestamp=1792764528353&requestId=b8e335fd-2e72-44e5-9743-03c445686"
+    },
+    {
+      "t": 14436,
+      "k": "net.done",
+      "u": "https://zchat.z.ai/api/v2/chat/completions?timestamp=1792764528353&requestId=b8e335fd-2e72-44e5-9743-03c445686",
+      "enc": 958
+    },
+    {
+      "t": 14436,
+      "k": "net.send",
+      "m": "GET",
+      "u": "https://zchat.z.ai/api/v1/chats/?page=1&type=default"
+    }
+  ]
+}

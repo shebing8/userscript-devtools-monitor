@@ -1,0 +1,365 @@
+{
+  "script": "../zai-restore-classic-composer.user.js",
+  "sent": {
+    "clicked": true,
+    "t": 1792764861443
+  },
+  "curve": [
+    {
+      "t": 14907,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 16916,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 18929,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 20942,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 22955,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 24967,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 26981,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 28997,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 31010,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 33019,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 35034,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 37045,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 39054,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 41063,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 43069,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 45079,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 47091,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 49105,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 51109,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 53124,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 55129,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 57136,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 59152,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 61161,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 63171,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    }
+  ],
+  "events": [
+    {
+      "t": 219,
+      "k": "log.warning",
+      "text": "other Manifest: property 'start_url' ignored, should be same origin as document.",
+      "url": "https://z-cdn.chatglm.cn/z-ai/frontend/static/manifest.json"
+    },
+    {
+      "t": 219,
+      "k": "net.fail",
+      "u": "https://www.googletagmanager.com/gtm.js?id=GTM-T9CBCLPX",
+      "err": "net::ERR_CONNECTION_CLOSED",
+      "type": "Script"
+    },
+    {
+      "t": 219,
+      "k": "log.error",
+      "text": "network Failed to load resource: net::ERR_CONNECTION_CLOSED",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-T9CBCLPX"
+    },
+    {
+      "t": 219,
+      "k": "net.fail",
+      "u": "https://www.googletagmanager.com/gtag/js?id=G-Z8QTHYBHP3",
+      "err": "net::ERR_CONNECTION_CLOSED",
+      "type": "Script"
+    },
+    {
+      "t": 219,
+      "k": "log.error",
+      "text": "network Failed to load resource: net::ERR_CONNECTION_CLOSED",
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-Z8QTHYBHP3"
+    },
+    {
+      "t": 507,
+      "k": "net.send",
+      "m": "GET",
+      "u": "https://zchat.z.ai/api/v1/chats/f5368b08-004d-4470-aa96-61bee1e6d77e"
+    },
+    {
+      "t": 508,
+      "k": "net.send",
+      "m": "GET",
+      "u": "https://zchat.z.ai/api/v1/chats/all/tags"
+    },
+    {
+      "t": 653,
+      "k": "net.send",
+      "m": "GET",
+      "u": "https://zchat.z.ai/api/v1/chats/pinned"
+    },
+    {
+      "t": 659,
+      "k": "net.send",
+      "m": "GET",
+      "u": "https://zchat.z.ai/api/v1/chats/subagents?chat_id=f5368b08-004d-4470-aa96-61bee1e6d77e"
+    },
+    {
+      "t": 1026,
+      "k": "net.send",
+      "m": "GET",
+      "u": "https://zchat.z.ai/api/v1/chats/f5368b08-004d-4470-aa96-61bee1e6d77e/tags"
+    },
+    {
+      "t": 1028,
+      "k": "net.send",
+      "m": "GET",
+      "u": "https://zchat.z.ai/api/v1/chats/?page=1&type=default"
+    },
+    {
+      "t": 1273,
+      "k": "net.send",
+      "m": "POST",
+      "u": "https://zchat.z.ai/api/v1/chats/f5368b08-004d-4470-aa96-61bee1e6d77e/messages/batch"
+    },
+    {
+      "t": 1605,
+      "k": "net.resp",
+      "s": 200,
+      "ct": "application/json",
+      "u": "https://zchat.z.ai/api/v1/chats/f5368b08-004d-4470-aa96-61bee1e6d77e/messages/batch"
+    },
+    {
+      "t": 5007,
+      "k": "net.fail",
+      "u": "https://j2c03hoppk-default-cn.rum.aliyuncs.com/",
+      "err": "net::ERR_ABORTED",
+      "type": "Fetch"
+    },
+    {
+      "t": 12898,
+      "k": "sent",
+      "sent": {
+        "clicked": true,
+        "t": 1792764861443
+      }
+    },
+    {
+      "t": 12899,
+      "k": "net.send",
+      "m": "GET",
+      "u": "https://zchat.z.ai/api/v1/chats/f5368b08-004d-4470-aa96-61bee1e6d77e"
+    },
+    {
+      "t": 13129,
+      "k": "net.send",
+      "m": "GET",
+      "u": "https://zchat.z.ai/api/v1/chats/?page=1&type=default"
+    },
+    {
+      "t": 13129,
+      "k": "net.send",
+      "m": "POST",
+      "u": "https://zchat.z.ai/api/v2/chat/completions?timestamp=1792764861669&requestId=d4e9a6d4-4d78-4587-8671-4808d3df474f&user_id=d70078d1"
+    },
+    {
+      "t": 14535,
+      "k": "net.resp",
+      "s": 200,
+      "ct": "text/event-stream",
+      "u": "https://zchat.z.ai/api/v2/chat/completions?timestamp=1792764861669&requestId=d4e9a6d4-4d78-4587-8671-4808d3df4"
+    },
+    {
+      "t": 15278,
+      "k": "net.done",
+      "u": "https://zchat.z.ai/api/v2/chat/completions?timestamp=1792764861669&requestId=d4e9a6d4-4d78-4587-8671-4808d3df4",
+      "enc": 1181
+    },
+    {
+      "t": 15279,
+      "k": "net.send",
+      "m": "GET",
+      "u": "https://zchat.z.ai/api/v1/chats/?page=1&type=default"
+    },
+    {
+      "t": 18933,
+      "k": "net.fail",
+      "u": "https://j2c03hoppk-default-cn.rum.aliyuncs.com/",
+      "err": "net::ERR_ABORTED",
+      "type": "Fetch"
+    },
+    {
+      "t": 63171,
+      "k": "socketProbe",
+      "socketProbe": {
+        "error": "SyntaxError: Invalid regular expression flags"
+      }
+    }
+  ],
+  "responses": [
+    {
+      "url": "https://zchat.z.ai/api/v2/chat/completions?timestamp=1792764861669&requestId=d4e9a6d4-4d78-4587-8671-4808d3df474f&user_id=d70078d1-7e0e-48ea",
+      "bytes": 929,
+      "head": "data: {\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"He keeps sending these STUCKDIAG codes\",\"phase\":\"thinking\"}}\n\ndata: {\"type\":\"chat:completion\",\"data\":{\"delta_content\":\", asking me to just reply \\\"收到\\\" (received). This\",\"phase\":\"thinking\"}}\n\ndata: {\"type\":\"chat:completion\",\"data\":{\"delta_content\":\" is likely some kind of test to see if I'm\",\"phase\":\"thinking\"}}\n\ndata: {\"type\":\"chat:completion\",\"data\":{\"delta_content\":\" still responsive/here. I'll\",\"phase\":\"thinking\"}}\n\ndata: {\"type\":\"chat:completion\",\"data\":{\"delta_content\":\" just keep replying as asked.\",\"phase\":\"thinking\"}}\n\ndata: {\"type\":\"chat:completion\",\"data\":{\"phase\":\"other\",\"usage\":{\"prompt_tokens\":9901,\"completion_tokens\":52,\"total_tokens\":9953,\"prompt_tokens_details\":{\"cached_tokens\":9792}}}}\n\ndata: {\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"[K]\\n\\n收到\",\"phase\":\"answer\"}}\n\ndata: {\"type\":\"chat:completion\",\"data\":{\"phase\":\"done\",\"done\":true}}\n\n"
+    }
+  ]
+}

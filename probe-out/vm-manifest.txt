@@ -1,0 +1,5 @@
+2.49.0_0\manifest.json
+name=__MSG_extName__ version=2.49.0
+content_scripts=null
+web_accessible=null
+key_matches=[]

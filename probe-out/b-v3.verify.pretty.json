@@ -1,0 +1,32 @@
+{
+ "url": "https://zchat.z.ai/c/b2f4ab9a-85c2-4805-9375-a1e0844f8525",
+ "ui": {
+  "stats": {
+   "config": 1,
+   "models": 1,
+   "chats": 8,
+   "creates": 0,
+   "forced": 0
+  },
+  "state": {
+   "level": "max",
+   "web": false
+  },
+  "chips": [],
+  "nativeGlobe": {
+   "found": true,
+   "active": "false"
+  },
+  "composerBtnCount": 7,
+  "composerText": "WeChat GLM-5.3"
+ },
+ "cycle": {
+  "error": "no think chip"
+ },
+ "web": {
+  "via": "none"
+ },
+ "sent": null,
+ "lastBody": null,
+ "wsFrames": []
+}

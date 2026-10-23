@@ -1,0 +1,173 @@
+{
+  "sent": {
+    "clicked": true
+  },
+  "curve": [
+    {
+      "afterLen": 0,
+      "probe": {
+        "streams": 1,
+        "delivered": 5
+      },
+      "sample": ""
+    },
+    {
+      "afterLen": 0,
+      "probe": {
+        "streams": 1,
+        "delivered": 5
+      },
+      "sample": ""
+    },
+    {
+      "afterLen": 0,
+      "probe": {
+        "streams": 1,
+        "delivered": 5
+      },
+      "sample": ""
+    },
+    {
+      "afterLen": 0,
+      "probe": {
+        "streams": 1,
+        "delivered": 5
+      },
+      "sample": ""
+    },
+    {
+      "afterLen": 0,
+      "probe": {
+        "streams": 1,
+        "delivered": 5
+      },
+      "sample": ""
+    },
+    {
+      "afterLen": 0,
+      "probe": {
+        "streams": 1,
+        "delivered": 5
+      },
+      "sample": ""
+    },
+    {
+      "afterLen": 0,
+      "probe": {
+        "streams": 1,
+        "delivered": 5
+      },
+      "sample": ""
+    },
+    {
+      "afterLen": 0,
+      "probe": {
+        "streams": 1,
+        "delivered": 5
+      },
+      "sample": ""
+    },
+    {
+      "afterLen": 0,
+      "probe": {
+        "streams": 1,
+        "delivered": 5
+      },
+      "sample": ""
+    },
+    {
+      "afterLen": 0,
+      "probe": {
+        "streams": 1,
+        "delivered": 5
+      },
+      "sample": ""
+    },
+    {
+      "afterLen": 0,
+      "probe": {
+        "streams": 1,
+        "delivered": 5
+      },
+      "sample": ""
+    },
+    {
+      "afterLen": 0,
+      "probe": {
+        "streams": 1,
+        "delivered": 5
+      },
+      "sample": ""
+    },
+    {
+      "afterLen": 0,
+      "probe": {
+        "streams": 1,
+        "delivered": 5
+      },
+      "sample": ""
+    },
+    {
+      "afterLen": 0,
+      "probe": {
+        "streams": 1,
+        "delivered": 5
+      },
+      "sample": ""
+    },
+    {
+      "afterLen": 0,
+      "probe": {
+        "streams": 1,
+        "delivered": 5
+      },
+      "sample": ""
+    },
+    {
+      "afterLen": 0,
+      "probe": {
+        "streams": 1,
+        "delivered": 5
+      },
+      "sample": ""
+    },
+    {
+      "afterLen": 0,
+      "probe": {
+        "streams": 1,
+        "delivered": 5
+      },
+      "sample": ""
+    },
+    {
+      "afterLen": 0,
+      "probe": {
+        "streams": 1,
+        "delivered": 5
+      },
+      "sample": ""
+    },
+    {
+      "afterLen": 0,
+      "probe": {
+        "streams": 1,
+        "delivered": 5
+      },
+      "sample": ""
+    },
+    {
+      "afterLen": 0,
+      "probe": {
+        "streams": 1,
+        "delivered": 5
+      },
+      "sample": ""
+    }
+  ],
+  "responses": [
+    {
+      "bytes": 576,
+      "head": "data: {\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"Another diagnostic test, same pattern. Reply\",\"phase\":\"thinking\"}}\n\ndata: {\"type\":\"chat:completion\",\"data\":{\"delta_content\":\" with exactly two characters: 收到\",\"phase\":\"thinking\"}}\n\ndata: {\"type\":\"chat:completion\",\"data\":{\"phase\":\"other\",\"usage\":{\"prompt_tokens\":9920,\"completion_tokens\":20,\"total_tokens\":9940,\"prompt_tokens_details\":{\"cached_"
+    }
+  ]
+}

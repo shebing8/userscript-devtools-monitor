@@ -1,0 +1,74 @@
+{
+  "btn0": [],
+  "btn1": [],
+  "btn2": [
+    {
+      "role": null,
+      "text": "WeChat",
+      "items": []
+    },
+    {
+      "role": "menu",
+      "text": "连接与通知 WeChat 飞书 Connect",
+      "items": [
+        "Connect"
+      ]
+    }
+  ],
+  "btn3": [
+    {
+      "role": null,
+      "text": "WeChat",
+      "items": []
+    },
+    {
+      "role": null,
+      "text": "GLM-5.3",
+      "items": []
+    },
+    {
+      "role": "menu",
+      "text": "连接与通知 WeChat 飞书 Connect",
+      "items": [
+        "Connect"
+      ]
+    },
+    {
+      "role": "menu",
+      "text": "GLM-5.3-Flash GLM-5.3 GLM-5.2 思考强度 最高",
+      "items": [
+        "GLM-5.3-Flash",
+        "GLM-5.3",
+        "GLM-5.2"
+      ]
+    }
+  ],
+  "btn4": [
+    {
+      "role": null,
+      "text": "WeChat",
+      "items": []
+    },
+    {
+      "role": null,
+      "text": "GLM-5.3",
+      "items": []
+    },
+    {
+      "role": "menu",
+      "text": "连接与通知 WeChat 飞书 Connect",
+      "items": [
+        "Connect"
+      ]
+    },
+    {
+      "role": "menu",
+      "text": "GLM-5.3-Flash GLM-5.3 GLM-5.2 思考强度 最高",
+      "items": [
+        "GLM-5.3-Flash",
+        "GLM-5.3",
+        "GLM-5.2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "steps": [
+    {
+      "n": "vmState",
+      "v": {
+        "state": {
+          "level": "off",
+          "web": true
+        },
+        "chips": [
+          {
+            "k": "web",
+            "a": "true",
+            "t": "联网搜索"
+          },
+          {
+            "k": "think",
+            "a": "false",
+            "t": "深度思考"
+          }
+        ],
+        "stats": {
+          "config": 1,
+          "models": 1,
+          "chats": 8,
+          "creates": 0,
+          "forced": 0
+        }
+      }
+    },
+    {
+      "n": "thinkOff",
+      "v": {
+        "label": "深度思考",
+        "state": "off"
+      }
+    },
+    {
+      "n": "webOn",
+      "v": {
+        "active": "true",
+        "state": true
+      }
+    },
+    {
+      "n": "send",
+      "v": {
+        "clicked": true
+      }
+    },
+    {
+      "n": "bodies",
+      "v": [
+        {
+          "flags": [
+            "general_agent"
+          ],
+          "thinking": false,
+          "effort": "max",
+          "web": true,
+          "auto": true
+        }
+      ]
+    },
+    {
+      "n": "vmStatsAfter",
+      "v": {
+        "config": 1,
+        "models": 1,
+        "chats": 11,
+        "creates": 0,
+        "forced": 1
+      }
+    },
+    {
+      "n": "lastBody",
+      "v": {
+        "effort": "max",
+        "thinking": false,
+        "web": true,
+        "web_explicit": true
+      }
+    }
+  ]
+}

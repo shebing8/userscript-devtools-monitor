@@ -1,0 +1,17 @@
+STEP boot: {"stats": {"config": 1, "models": 1, "chats": 3, "creates": 0, "forced": 0}, "state": {"level": "low", "web": false}}
+STEP newChat: {"clicked": true}
+STEP hrefAfterNew: "https://zchat.z.ai/"
+STEP setLow: {"label": "深度思考 · 低", "state": "low"}
+STEP setWeb: {"chipActive": "true", "state": true, "nativeHidden": true, "nativeActive": "false"}
+STEP webSettled: {"chipActive": "true", "state": true, "nativeActive": "true", "stored": "1"}
+STEP send: {"clicked": true}
+STEP hrefAfterSend: "https://zchat.z.ai/c/870fea78-f677-4b17-8a70-fce00feae039"
+STEP lastBody: {"effort": "low", "thinking": true, "web": true, "web_explicit": true}
+STEP statsAfter: {"config": 1, "models": 1, "chats": 7, "creates": 1, "forced": 1}
+STEP slider: {"error": "no menu"}
+
+--- COMPLETION BODY
+{"stream":true,"model":"glm-5.3","messages":[{"role":"user","content":"只回复两个字：收到"}],"signature_prompt":"只回复两个字：收到","params":{},"extra":{},"features":{"image_generation":false,"web_search":true,"auto_web_search":true,"preview_mode":true,"flags":[],"vlm_tools_enable":false,"vlm_web_search_enable":false,"vlm_website_mode":false,"enable_thinking":true,"reasoning_effort":"low"},"variables":{"{{USER_NAME}}":"旅行者6881","{{USER_LOCATION}}":"Unknown","{{CURRENT_DATETIME}}":"2026-10-23 21:28:15","{{CURRENT_DATE}}":"2026-10-23","{{CURRENT_TIME}}":"21:28:15","{{CURRENT_WEEKDAY}}":"Friday","{{CURRENT_TIMEZONE}}":"Asia/Shanghai","{{USER_LANGUAGE}}":"zh-CN"},"chat_id":"870fea78-f677-4b17-8a70-fce00feae039","id":"25b9bcbd-94d8-45f1-92c4-288550522696","current_user_message_id":"0927bfbe-1ccb-4718-91a3-9400c0a4b4af","current_user_message_parent_id":null,"background_tasks":{"title_generation":true,"tags_generation":true}}
+
+--- CHATS/NEW RESPONSE
+{"id":"870fea78-f677-4b17-8a70-fce00feae039","user_id":"d70078d1-7e0e-48ea-b575-1b45ae0f22cd","title":"新聊天","chat":{"id":"870fea78-f677-4b17-8a70-fce00feae039","models":["glm-5.3"],"params":{},"history":{"messages":{"0927bfbe-1ccb-4718-91a3-9400c0a4b4af":{"id":"0927bfbe-1ccb-4718-91a3-9400c0a4b4af","parentId":null,"childrenIds":[],"role":"user","timestamp":1792762095,"content":"只回复两个字：收到","models":["glm-5.3"]}},"currentId":"0927bfbe-1ccb-4718-91a3-9400c0a4b4af"},"tags":[],"enable_thinking":true,"reasoning_effort":"low","auto_web_search":true,"timestamp":1792762095701,"extra":{}},"updated_at":1792762095,"created_at":1792762095,"share_id":null,"archived":false,"pinned":false,"meta":{"auto_web_search":true,"flags":null,"mcp_servers":[],"models":["glm-5.3"],"workspace_id":"870fea78-f677-4b17-8a70-fce00feae039"},"folder_id":null,"message_version":1,"type":"default","project_id":null,"im_context":null}

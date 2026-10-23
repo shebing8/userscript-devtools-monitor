@@ -1,0 +1,219 @@
+{
+  "script": false,
+  "sent": {
+    "clicked": true
+  },
+  "curve": [
+    {
+      "t": 17402,
+      "jsonFrames": 8,
+      "idleSched": 206,
+      "idleRun": 205,
+      "decode": 11,
+      "samples": [
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"用户要求只回复两个字\\\"收到\\\"，附带\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"一个测试标识 STUCKDI\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"AG_268nv。这是\",\"phase\":\"thinking\"}}"
+      ],
+      "tail": "INSTEST_cqhyk \n",
+      "tailLen": 3,
+      "err": null
+    },
+    {
+      "t": 20406,
+      "jsonFrames": 8,
+      "idleSched": 688,
+      "idleRun": 687,
+      "decode": 11,
+      "samples": [
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"用户要求只回复两个字\\\"收到\\\"，附带\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"一个测试标识 STUCKDI\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"AG_268nv。这是\",\"phase\":\"thinking\"}}"
+      ],
+      "tail": "INSTEST_cqhyk \n",
+      "tailLen": 3,
+      "err": null
+    },
+    {
+      "t": 23411,
+      "jsonFrames": 8,
+      "idleSched": 1153,
+      "idleRun": 1152,
+      "decode": 11,
+      "samples": [
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"用户要求只回复两个字\\\"收到\\\"，附带\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"一个测试标识 STUCKDI\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"AG_268nv。这是\",\"phase\":\"thinking\"}}"
+      ],
+      "tail": "INSTEST_cqhyk \n",
+      "tailLen": 3,
+      "err": null
+    },
+    {
+      "t": 26416,
+      "jsonFrames": 8,
+      "idleSched": 1645,
+      "idleRun": 1644,
+      "decode": 11,
+      "samples": [
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"用户要求只回复两个字\\\"收到\\\"，附带\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"一个测试标识 STUCKDI\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"AG_268nv。这是\",\"phase\":\"thinking\"}}"
+      ],
+      "tail": "INSTEST_cqhyk \n",
+      "tailLen": 3,
+      "err": null
+    },
+    {
+      "t": 29428,
+      "jsonFrames": 8,
+      "idleSched": 2136,
+      "idleRun": 2135,
+      "decode": 11,
+      "samples": [
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"用户要求只回复两个字\\\"收到\\\"，附带\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"一个测试标识 STUCKDI\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"AG_268nv。这是\",\"phase\":\"thinking\"}}"
+      ],
+      "tail": "INSTEST_cqhyk \n",
+      "tailLen": 3,
+      "err": null
+    },
+    {
+      "t": 32433,
+      "jsonFrames": 8,
+      "idleSched": 2610,
+      "idleRun": 2609,
+      "decode": 11,
+      "samples": [
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"用户要求只回复两个字\\\"收到\\\"，附带\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"一个测试标识 STUCKDI\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"AG_268nv。这是\",\"phase\":\"thinking\"}}"
+      ],
+      "tail": "INSTEST_cqhyk \n",
+      "tailLen": 3,
+      "err": null
+    },
+    {
+      "t": 35447,
+      "jsonFrames": 8,
+      "idleSched": 3092,
+      "idleRun": 3091,
+      "decode": 11,
+      "samples": [
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"用户要求只回复两个字\\\"收到\\\"，附带\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"一个测试标识 STUCKDI\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"AG_268nv。这是\",\"phase\":\"thinking\"}}"
+      ],
+      "tail": "INSTEST_cqhyk \n",
+      "tailLen": 3,
+      "err": null
+    },
+    {
+      "t": 38451,
+      "jsonFrames": 8,
+      "idleSched": 3578,
+      "idleRun": 3577,
+      "decode": 11,
+      "samples": [
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"用户要求只回复两个字\\\"收到\\\"，附带\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"一个测试标识 STUCKDI\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"AG_268nv。这是\",\"phase\":\"thinking\"}}"
+      ],
+      "tail": "INSTEST_cqhyk \n",
+      "tailLen": 3,
+      "err": null
+    },
+    {
+      "t": 41464,
+      "jsonFrames": 8,
+      "idleSched": 4046,
+      "idleRun": 4045,
+      "decode": 11,
+      "samples": [
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"用户要求只回复两个字\\\"收到\\\"，附带\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"一个测试标识 STUCKDI\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"AG_268nv。这是\",\"phase\":\"thinking\"}}"
+      ],
+      "tail": "INSTEST_cqhyk \n",
+      "tailLen": 3,
+      "err": null
+    },
+    {
+      "t": 44470,
+      "jsonFrames": 8,
+      "idleSched": 4528,
+      "idleRun": 4527,
+      "decode": 11,
+      "samples": [
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"用户要求只回复两个字\\\"收到\\\"，附带\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"一个测试标识 STUCKDI\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"AG_268nv。这是\",\"phase\":\"thinking\"}}"
+      ],
+      "tail": "INSTEST_cqhyk \n",
+      "tailLen": 3,
+      "err": null
+    },
+    {
+      "t": 47481,
+      "jsonFrames": 8,
+      "idleSched": 5001,
+      "idleRun": 5000,
+      "decode": 11,
+      "samples": [
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"用户要求只回复两个字\\\"收到\\\"，附带\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"一个测试标识 STUCKDI\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"AG_268nv。这是\",\"phase\":\"thinking\"}}"
+      ],
+      "tail": "INSTEST_cqhyk \n",
+      "tailLen": 3,
+      "err": null
+    },
+    {
+      "t": 50487,
+      "jsonFrames": 8,
+      "idleSched": 5497,
+      "idleRun": 5496,
+      "decode": 11,
+      "samples": [
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"用户要求只回复两个字\\\"收到\\\"，附带\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"一个测试标识 STUCKDI\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"AG_268nv。这是\",\"phase\":\"thinking\"}}"
+      ],
+      "tail": "INSTEST_cqhyk \n",
+      "tailLen": 3,
+      "err": null
+    },
+    {
+      "t": 53494,
+      "jsonFrames": 8,
+      "idleSched": 5984,
+      "idleRun": 5983,
+      "decode": 11,
+      "samples": [
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"用户要求只回复两个字\\\"收到\\\"，附带\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"一个测试标识 STUCKDI\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"AG_268nv。这是\",\"phase\":\"thinking\"}}"
+      ],
+      "tail": "INSTEST_cqhyk \n",
+      "tailLen": 3,
+      "err": null
+    },
+    {
+      "t": 56511,
+      "jsonFrames": 8,
+      "idleSched": 6430,
+      "idleRun": 6429,
+      "decode": 11,
+      "samples": [
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"用户要求只回复两个字\\\"收到\\\"，附带\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"一个测试标识 STUCKDI\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"AG_268nv。这是\",\"phase\":\"thinking\"}}"
+      ],
+      "tail": "INSTEST_cqhyk \n",
+      "tailLen": 3,
+      "err": null
+    }
+  ],
+  "events": []
+}

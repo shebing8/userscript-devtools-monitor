@@ -1,0 +1,114 @@
+{
+  "START": "https://zchat.z.ai/",
+  "log": {
+    "steps": [
+      {
+        "name": "boot",
+        "value": {
+          "stats": {
+            "config": 1,
+            "models": 1,
+            "chats": 3,
+            "creates": 0,
+            "forced": 0
+          },
+          "state": {
+            "level": "low",
+            "web": false
+          }
+        }
+      },
+      {
+        "name": "newChat",
+        "value": {
+          "clicked": true
+        }
+      },
+      {
+        "name": "hrefAfterNew",
+        "value": "https://zchat.z.ai/"
+      },
+      {
+        "name": "setLow",
+        "value": {
+          "label": "深度思考 · 低",
+          "state": "low"
+        }
+      },
+      {
+        "name": "setWeb",
+        "value": {
+          "chipActive": "true",
+          "state": true,
+          "nativeHidden": true,
+          "nativeActive": "false"
+        }
+      },
+      {
+        "name": "webSettled",
+        "value": {
+          "chipActive": "true",
+          "state": true,
+          "nativeActive": "true",
+          "stored": "1"
+        }
+      },
+      {
+        "name": "send",
+        "value": {
+          "clicked": true
+        }
+      },
+      {
+        "name": "hrefAfterSend",
+        "value": "https://zchat.z.ai/c/870fea78-f677-4b17-8a70-fce00feae039"
+      },
+      {
+        "name": "lastBody",
+        "value": {
+          "effort": "low",
+          "thinking": true,
+          "web": true,
+          "web_explicit": true
+        }
+      },
+      {
+        "name": "statsAfter",
+        "value": {
+          "config": 1,
+          "models": 1,
+          "chats": 7,
+          "creates": 1,
+          "forced": 1
+        }
+      },
+      {
+        "name": "slider",
+        "value": {
+          "error": "no menu"
+        }
+      }
+    ]
+  },
+  "posts": [
+    {
+      "t": "http",
+      "method": "POST",
+      "url": "https://zchat.z.ai/api/v1/chats/new",
+      "body": "{\"chat\":{\"id\":\"\",\"title\":\"新聊天\",\"models\":[\"glm-5.3\"],\"params\":{},\"history\":{\"messages\":{\"0927bfbe-1ccb-4718-91a3-9400c0a4b4af\":{\"id\":\"0927bfbe-1ccb-4718-91a3-9400c0a4b4af\",\"parentId\":null,\"childrenIds\":[],\"role\":\"user\",\"content\":\"只回复两个字：收到\",\"timestamp\":1792762095,\"models\":[\"glm-5.3\"]}},\"currentId\":\"0927bfbe-1ccb-4718-91a3-9400c0a4b4af\"},\"tags\":[],\"flags\":[],\"features\":[],\"mcp_servers\":[],\"enable_thinking\":true,\"reasoning_effort\":\"low\",\"auto_web_search\":true,\"message_version\":1,\"extra\":{},\"timestamp\":1792762095701,\"type\":\"default\"}}"
+    },
+    {
+      "t": "http",
+      "method": "POST",
+      "url": "https://zchat.z.ai/api/v2/chat/completions?timestamp=1792762095820&requestId=95294039-6a0c-4a03-abbc-f763d942f857&user_id=d70078d1-7e0e-48ea-b575-1b45ae0f22cd&version=0.0.1&platform=web&token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImQ3MDA3OGQxLTdlMGUtNDhlYS1iNTc1LTFiNDVhZTBmMjJjZCIsImVtYWlsIjoiMTc1MzQ2MDY4ODFAcGhvbmUubG9jYWwiLCJyZWdpb24iOiJjbiIsImNsaSI6IndlYiJ9.bW7KgxAdcQ3-UDeSd4QrDdWzNixNx6s_kSDuxRrojO7y4G7Ogcj4KlzD3FbcPtLDgph1Ymm-YYaBTs1dko3bWw&user_agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F155.0.0.0+Safari%2F537.36&language=zh-CN&languages=zh-CN%2Czh&timezone=Asia%2FShanghai&cookie_enabled=true&screen_width=1707&screen_height=1067&screen_resolution=1707x1067&viewport_height=900&viewport_width=1440&viewport_size=1440x900&color_depth=24&pixel_ratio=1.0000000298023224&current_url=https%3A%2F%2Fzchat.z.ai%2Fc%2F870fea78-f677-4b17-8a70-fce00feae039&pathname=%2Fc%2F870fea78-f677-4b17-8a70-fce00feae039&search=&hash=&host=zchat.z.ai&hostname=zchat.z.ai&protocol=https%3A&referrer=&title=Z.ai+-+Advanced+AI+Chatbot+%26+Agent+powered+by+GLM-5.3-Flash&timezone_offset=-480&local_time=2026-10-23T13%3A28%3A15.820Z&utc_time=Fri%2C+23+Oct+2026+13%3A28%3A15+GMT&is_mobile=false&is_touch=false&max_touch_points=0&browser_name=Chrome&os_name=Windows&signature_timestamp=1792762095820",
+      "body": "{\"stream\":true,\"model\":\"glm-5.3\",\"messages\":[{\"role\":\"user\",\"content\":\"只回复两个字：收到\"}],\"signature_prompt\":\"只回复两个字：收到\",\"params\":{},\"extra\":{},\"features\":{\"image_generation\":false,\"web_search\":true,\"auto_web_search\":true,\"preview_mode\":true,\"flags\":[],\"vlm_tools_enable\":false,\"vlm_web_search_enable\":false,\"vlm_website_mode\":false,\"enable_thinking\":true,\"reasoning_effort\":\"low\"},\"variables\":{\"{{USER_NAME}}\":\"旅行者6881\",\"{{USER_LOCATION}}\":\"Unknown\",\"{{CURRENT_DATETIME}}\":\"2026-10-23 21:28:15\",\"{{CURRENT_DATE}}\":\"2026-10-23\",\"{{CURRENT_TIME}}\":\"21:28:15\",\"{{CURRENT_WEEKDAY}}\":\"Friday\",\"{{CURRENT_TIMEZONE}}\":\"Asia/Shanghai\",\"{{USER_LANGUAGE}}\":\"zh-CN\"},\"chat_id\":\"870fea78-f677-4b17-8a70-fce00feae039\",\"id\":\"25b9bcbd-94d8-45f1-92c4-288550522696\",\"current_user_message_id\":\"0927bfbe-1ccb-4718-91a3-9400c0a4b4af\",\"current_user_message_parent_id\":null,\"background_tasks\":{\"title_generation\":true,\"tags_generation\":true}}"
+    }
+  ],
+  "responses": [
+    {
+      "url": "https://zchat.z.ai/api/v1/chats/new",
+      "body": "{\"id\":\"870fea78-f677-4b17-8a70-fce00feae039\",\"user_id\":\"d70078d1-7e0e-48ea-b575-1b45ae0f22cd\",\"title\":\"新聊天\",\"chat\":{\"id\":\"870fea78-f677-4b17-8a70-fce00feae039\",\"models\":[\"glm-5.3\"],\"params\":{},\"history\":{\"messages\":{\"0927bfbe-1ccb-4718-91a3-9400c0a4b4af\":{\"id\":\"0927bfbe-1ccb-4718-91a3-9400c0a4b4af\",\"parentId\":null,\"childrenIds\":[],\"role\":\"user\",\"timestamp\":1792762095,\"content\":\"只回复两个字：收到\",\"models\":[\"glm-5.3\"]}},\"currentId\":\"0927bfbe-1ccb-4718-91a3-9400c0a4b4af\"},\"tags\":[],\"enable_thinking\":true,\"reasoning_effort\":\"low\",\"auto_web_search\":true,\"timestamp\":1792762095701,\"extra\":{}},\"updated_at\":1792762095,\"created_at\":1792762095,\"share_id\":null,\"archived\":false,\"pinned\":false,\"meta\":{\"auto_web_search\":true,\"flags\":null,\"mcp_servers\":[],\"models\":[\"glm-5.3\"],\"workspace_id\":\"870fea78-f677-4b17-8a70-fce00feae039\"},\"folder_id\":null,\"message_version\":1,\"type\":\"default\",\"project_id\":null,\"im_context\":null}"
+    }
+  ],
+  "wss": []
+}

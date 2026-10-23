@@ -1,0 +1,185 @@
+{
+  "script": true,
+  "sent": {
+    "clicked": true
+  },
+  "curve": [
+    {
+      "t": 15880,
+      "jsonFrames": 7,
+      "idleSched": 255,
+      "idleRun": 254,
+      "decode": 11,
+      "samples": [
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"he keeps sending these diagnostic pings.\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\" same format, different suffix.\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\" i just reply with the two characters as\",\"phase\":\"thinking\"}}"
+      ],
+      "tail": "INSTEST_wil48 \n",
+      "tailLen": 3,
+      "err": null
+    },
+    {
+      "t": 18886,
+      "jsonFrames": 7,
+      "idleSched": 731,
+      "idleRun": 730,
+      "decode": 11,
+      "samples": [
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"he keeps sending these diagnostic pings.\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\" same format, different suffix.\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\" i just reply with the two characters as\",\"phase\":\"thinking\"}}"
+      ],
+      "tail": "INSTEST_wil48 \n",
+      "tailLen": 3,
+      "err": null
+    },
+    {
+      "t": 21900,
+      "jsonFrames": 7,
+      "idleSched": 1193,
+      "idleRun": 1192,
+      "decode": 11,
+      "samples": [
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"he keeps sending these diagnostic pings.\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\" same format, different suffix.\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\" i just reply with the two characters as\",\"phase\":\"thinking\"}}"
+      ],
+      "tail": "INSTEST_wil48 \n",
+      "tailLen": 3,
+      "err": null
+    },
+    {
+      "t": 24905,
+      "jsonFrames": 7,
+      "idleSched": 1688,
+      "idleRun": 1687,
+      "decode": 11,
+      "samples": [
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"he keeps sending these diagnostic pings.\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\" same format, different suffix.\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\" i just reply with the two characters as\",\"phase\":\"thinking\"}}"
+      ],
+      "tail": "INSTEST_wil48 \n",
+      "tailLen": 3,
+      "err": null
+    },
+    {
+      "t": 27911,
+      "jsonFrames": 7,
+      "idleSched": 2165,
+      "idleRun": 2164,
+      "decode": 11,
+      "samples": [
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"he keeps sending these diagnostic pings.\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\" same format, different suffix.\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\" i just reply with the two characters as\",\"phase\":\"thinking\"}}"
+      ],
+      "tail": "INSTEST_wil48 \n",
+      "tailLen": 3,
+      "err": null
+    },
+    {
+      "t": 30922,
+      "jsonFrames": 7,
+      "idleSched": 2629,
+      "idleRun": 2628,
+      "decode": 11,
+      "samples": [
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"he keeps sending these diagnostic pings.\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\" same format, different suffix.\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\" i just reply with the two characters as\",\"phase\":\"thinking\"}}"
+      ],
+      "tail": "INSTEST_wil48 \n",
+      "tailLen": 3,
+      "err": null
+    },
+    {
+      "t": 33928,
+      "jsonFrames": 7,
+      "idleSched": 3121,
+      "idleRun": 3120,
+      "decode": 11,
+      "samples": [
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"he keeps sending these diagnostic pings.\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\" same format, different suffix.\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\" i just reply with the two characters as\",\"phase\":\"thinking\"}}"
+      ],
+      "tail": "INSTEST_wil48 \n",
+      "tailLen": 3,
+      "err": null
+    },
+    {
+      "t": 36939,
+      "jsonFrames": 7,
+      "idleSched": 3588,
+      "idleRun": 3587,
+      "decode": 11,
+      "samples": [
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"he keeps sending these diagnostic pings.\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\" same format, different suffix.\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\" i just reply with the two characters as\",\"phase\":\"thinking\"}}"
+      ],
+      "tail": "INSTEST_wil48 \n",
+      "tailLen": 3,
+      "err": null
+    },
+    {
+      "t": 39953,
+      "jsonFrames": 7,
+      "idleSched": 4076,
+      "idleRun": 4075,
+      "decode": 11,
+      "samples": [
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"he keeps sending these diagnostic pings.\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\" same format, different suffix.\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\" i just reply with the two characters as\",\"phase\":\"thinking\"}}"
+      ],
+      "tail": "INSTEST_wil48 \n",
+      "tailLen": 3,
+      "err": null
+    },
+    {
+      "t": 42962,
+      "jsonFrames": 7,
+      "idleSched": 4565,
+      "idleRun": 4564,
+      "decode": 11,
+      "samples": [
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"he keeps sending these diagnostic pings.\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\" same format, different suffix.\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\" i just reply with the two characters as\",\"phase\":\"thinking\"}}"
+      ],
+      "tail": "INSTEST_wil48 \n",
+      "tailLen": 3,
+      "err": null
+    },
+    {
+      "t": 45981,
+      "jsonFrames": 7,
+      "idleSched": 5033,
+      "idleRun": 5032,
+      "decode": 11,
+      "samples": [
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\"he keeps sending these diagnostic pings.\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\" same format, different suffix.\",\"phase\":\"thinking\"}}",
+        "{\"type\":\"chat:completion\",\"data\":{\"delta_content\":\" i just reply with the two characters as\",\"phase\":\"thinking\"}}"
+      ],
+      "tail": "INSTEST_wil48 \n正在思考\n正在思考",
+      "tailLen": 14,
+      "err": null
+    }
+  ],
+  "events": [
+    {
+      "t": 248,
+      "k": "exc",
+      "d": "TypeError: (intermediate value)(intermediate value)(intermediate value)(intermediate value)(intermediate value)(intermediate value)(intermediate value)(intermediate value)(...) is not a function\n    at <anonymous>:35:1"
+    },
+    {
+      "t": 265,
+      "k": "exc",
+      "d": "TypeError: (intermediate value)(intermediate value)(intermediate value)(intermediate value)(intermediate value)(intermediate value)(intermediate value)(intermediate value)(...) is not a function\n    at <anonymous>:35:1"
+    }
+  ]
+}

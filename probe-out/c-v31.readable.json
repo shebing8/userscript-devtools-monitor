@@ -1,0 +1,16 @@
+STEP boot: {"stats": {"config": 1, "models": 1, "chats": 3, "creates": 0, "forced": 0}, "state": {"level": "low", "web": false}}
+STEP newChat: {"clicked": true}
+STEP hrefAfterNew: "https://zchat.z.ai/"
+STEP setLow: {"label": "深度思考 · 低", "state": "low"}
+STEP setWeb: {"via": "native", "active": "false", "state": false}
+STEP send: {"clicked": true}
+STEP hrefAfterSend: "https://zchat.z.ai/c/6111f774-e5c9-4e0f-86c7-f44560b9cb72"
+STEP lastBody: {"effort": "low", "thinking": true, "web": false, "web_explicit": false}
+STEP statsAfter: {"config": 1, "models": 1, "chats": 7, "creates": 1, "forced": 1}
+STEP slider: {"text": "GLM-5.3-Flash GLM-5.3 GLM-5.2 思考强度 最高", "valueNow": "2", "valueText": "最高", "disabled": "false"}
+
+--- POST https://zchat.z.ai/api/v1/chats/new
+{"chat":{"id":"","title":"新聊天","models":["glm-5.3"],"params":{},"history":{"messages":{"2867e0e5-51fa-4f90-9084-d26fe9ea447b":{"id":"2867e0e5-51fa-4f90-9084-d26fe9ea447b","parentId":null,"childrenIds":[],"role":"user","content":"只回复两个字：收到","timestamp":1792761892,"models":["glm-5.3"]}},"currentId":"2867e0e5-51fa-4f90-9084-d26fe9ea447b"},"tags":[],"flags":[],"features":[],"mcp_servers":[],"enable_thinking":true,"reasoning_effort":"low","auto_web_search":false,"message_version":1,"extra":{},"timestamp":1792761892692,"type":"default"}}
+
+--- POST https://zchat.z.ai/api/v2/chat/completions?timestamp=1792761892898&requestId=970388ed-0cb9-4dbb-bfb8-63aa51e33
+{"stream":true,"model":"glm-5.3","messages":[{"role":"user","content":"只回复两个字：收到"}],"signature_prompt":"只回复两个字：收到","params":{},"extra":{},"features":{"image_generation":false,"web_search":false,"auto_web_search":false,"preview_mode":true,"flags":[],"vlm_tools_enable":false,"vlm_web_search_enable":false,"vlm_website_mode":false,"enable_thinking":true,"reasoning_effort":"low"},"variables":{"{{USER_NAME}}":"旅行者6881","{{USER_LOCATION}}":"Unknown","{{CURRENT_DATETIME}}":"2026-10-23 21:24:52","{{CURRENT_DATE}}":"2026-10-23","{{CURRENT_TIME}}":"21:24:52","{{CURRENT_WEEKDAY}}":"Friday","{{CURRENT_TIMEZONE}}":"Asia/Shanghai","{{USER_LANGUAGE}}":"zh-CN"},"chat_id":"6111f774-e5c9-4e0f-86c7-f44560b9cb72","id":"9e8798be-8138-49ce-882a-81b4a3219c03","current_user_message_id":"2867e0e5-51fa-4f90-9084-d26fe9ea447b","current_user_message_parent_id":null,"background_tasks":{"title_generation":true,"tags_generation":true}}

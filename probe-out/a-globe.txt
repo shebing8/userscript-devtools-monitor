@@ -1,0 +1,11 @@
+{
+ "before": {
+  "html": "<button type=\"button\" class=\"flex shrink-0 items-center justify-center p-1.5 rounded-full border-[0.5px] border-border-default bg-transparent text-icon-tertiary outline-hidden transition-colors duration-300 hover:bg-bg-hover disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:bg-transparent data-[active=true]:border-accent-blue-default data-[active=true]:bg-accent-blue-subtle data-[active=true]:text-accent-blue-default\" data-active=\"false\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 1",
+  "wrap": "<div id=\"bits-c828\" data-state=\"closed\" data-delay-duration=\"200\" data-tooltip-trigger=\"\" tabindex=\"0\" type=\"button\" class=\"flex\"><button type=\"button\" class=\"flex shrink-0 items-center justify-center p-1.5 rounded-full border-[0.5px] border-border-default bg-transparent text-icon-tertiary outline-h"
+ },
+ "after": {
+  "html": "<button type=\"button\" class=\"flex shrink-0 items-center justify-center p-1.5 rounded-full border-[0.5px] border-border-default bg-transparent text-icon-tertiary outline-hidden transition-colors duration-300 hover:bg-bg-hover disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:bg-transparent data-[active=true]:border-accent-blue-default data-[active=true]:bg-accent-blue-subtle data-[active=true]:text-accent-blue-default\" data-active=\"true\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16",
+  "wrap": "<div id=\"bits-c828\" data-state=\"closed\" data-delay-duration=\"200\" data-tooltip-trigger=\"\" tabindex=\"0\" type=\"button\" class=\"flex\"><button type=\"button\" class=\"flex shrink-0 items-center justify-center p-1.5 rounded-full border-[0.5px] border-border-default bg-transparent text-icon-tertiary outline-h"
+ },
+ "popups": []
+}

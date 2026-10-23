@@ -1,0 +1,58 @@
+{
+  "url": "https://zchat.z.ai/c/870fea78-f677-4b17-8a70-fce00feae039",
+  "ui": {
+    "stats": {
+      "config": 1,
+      "models": 1,
+      "chats": 7,
+      "creates": 0,
+      "forced": 0
+    },
+    "state": {
+      "level": "low",
+      "web": true
+    },
+    "chips": [
+      {
+        "kind": "web",
+        "text": "联网搜索",
+        "active": "true"
+      },
+      {
+        "kind": "think",
+        "text": "深度思考 · 低",
+        "active": "true"
+      }
+    ],
+    "nativeGlobe": {
+      "found": true,
+      "active": "true"
+    },
+    "composerBtnCount": 8,
+    "composerText": "联网搜索 深度思考 · 低 GLM-5.3"
+  },
+  "cycle": {
+    "seen": [
+      "深度思考 · 低",
+      "深度思考 · 高",
+      "深度思考 · 最高",
+      "深度思考",
+      "深度思考 · 低"
+    ],
+    "stored": "high"
+  },
+  "web": {
+    "via": "chip",
+    "active": "false",
+    "stored": "0"
+  },
+  "sent": null,
+  "lastBody": null,
+  "slider": {
+    "text": "GLM-5.3-Flash GLM-5.3 GLM-5.2 思考强度 低",
+    "valueNow": "0",
+    "valueText": "低",
+    "disabled": "false"
+  },
+  "wsFrames": []
+}

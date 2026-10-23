@@ -1,0 +1,132 @@
+{
+  "START": "https://zchat.z.ai/",
+  "steps": [
+    {
+      "name": "vmPresent",
+      "value": {
+        "classic": true,
+        "heal": true,
+        "flag3": true
+      }
+    },
+    {
+      "name": "apiConfigRaw",
+      "value": {
+        "unified_agent": null,
+        "keys": [
+          "status",
+          "name",
+          "version",
+          "default_locale",
+          "oauth",
+          "completion_version",
+          "default_ppt_model",
+          "features",
+          "values",
+          "default_models",
+          "default_prompt_suggestions",
+          "code",
+          "audio",
+          "file",
+          "converter_daily_limit",
+          "recommand_model",
+          "permissions",
+          "google_drive",
+          "onedrive",
+          "license_metadata",
+          "mcp_servers"
+        ]
+      }
+    },
+    {
+      "name": "newChat",
+      "value": {
+        "clicked": true
+      }
+    },
+    {
+      "name": "modeUI",
+      "value": {
+        "hasChatMode": true,
+        "hasAgentMode": true,
+        "samples": [
+          "Chat 模式\nAgent 模式",
+          "Chat 模式",
+          "Agent 模式"
+        ]
+      }
+    },
+    {
+      "name": "send",
+      "value": {
+        "clicked": true
+      }
+    },
+    {
+      "name": "settled",
+      "value": {
+        "tail": "思考过程\n已运行 1 条命令\n\n已调用代码沙箱工具执行完成，命令输出结果为：FLAG3_OK_221\n\n如需继续测试其他命令，随时告诉我。",
+        "running": false,
+        "hasTool": true,
+        "hasToken": true
+      }
+    },
+    {
+      "name": "hrefAfter",
+      "value": "https://zchat.z.ai/c/3a8b7c04-1eef-4355-9671-75c4bbf57b06"
+    },
+    {
+      "name": "chatType",
+      "value": {
+        "status": 200,
+        "type": "general_agent"
+      }
+    },
+    {
+      "name": "wrapState",
+      "value": {
+        "hits": [],
+        "patched": 0,
+        "err": []
+      }
+    },
+    {
+      "name": "createBodies",
+      "value": [
+        "{\"chat\":{\"id\":\"\",\"title\":\"新聊天\",\"models\":[\"glm-5.3\"],\"params\":{},\"history\":{\"messages\":{\"32bcee1b-9a58-471e-b50b-b9c739c2b2a9\":{\"id\":\"32bcee1b-9a58-471e-b50b-b9c739c2b2a9\",\"parentId\":null,\"childrenIds\":[],\"role\":\"user\",\"content\":\"必须调用代码沙箱工具执行 bash：echo FLAG3_OK_221 ，不许只用文字回答，直接调用工具\",\"timestamp\":1792767806,\"models\":[\"glm-5.3\"]}},\"currentId\":\"32bcee1b-9a58-471e-b50b-b9c739c2b2a9\"},\"tags\":[],\"flags\":[],\"features\":[],\"mcp_servers\":[],\"enable_thinking\":true,\"reasoning_effort\":\"max\",\"auto_web_search\":false,\"message_version\":1,\"extra\":{},\"timestamp\":1792767806798,\"type\":\"default\"}}"
+      ]
+    },
+    {
+      "name": "completionFlags",
+      "value": [
+        {
+          "flags": [
+            "general_agent"
+          ],
+          "thinking": true,
+          "effort": "max"
+        }
+      ]
+    },
+    {
+      "name": "sse",
+      "value": [
+        {
+          "len": 2525,
+          "hasToken": true,
+          "toolEvents": [
+            "\"tool_call\"",
+            "\"Bash\"",
+            "\"tool_call_id\"",
+            "\"tool_call\"",
+            "\"command\\\"",
+            "\"tool_response\"",
+            "\"tool_name\"",
+            "\"Bash\"",
+            "\"tool_call_id\""
+          ]
+        }
+      ]
+    }
+  ]
+}

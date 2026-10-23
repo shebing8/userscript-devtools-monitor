@@ -1,0 +1,27 @@
+{
+ "before": {
+  "attrs": {
+   "type": "button",
+   "class": "...",
+   "data-active": "false"
+  },
+  "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"size-4\"><path d=\"M1.33333 8H14.6667M1.33333 8C1.33333 11.6819 4.3181 14.6667 8 14.6667M1.33333 8C1.33333 4.3181 4.3181 1.33333 8 1.33333M14.6667 8C14.6667 11.6819 11.6819 14.6667 8 14.6667M14.6667 8",
+  "parent": "[[\"id\",\"bits-c828\"],[\"data-state\",\"closed\"],[\"data-delay-duration\",\"200\"],[\"data-tooltip-trigger\",\"\"],[\"tabindex\",\"0\"],[\"type\",\"button\"],[\"class\",\"c\"]]"
+ },
+ "afterClick": {
+  "attrs": {
+   "type": "button",
+   "class": "...",
+   "data-active": "true"
+  },
+  "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"size-4\"><path d=\"M1.33333 8H14.6667M1.33333 8C1.33333 11.6819 4.3181 14.6667 8 14.6667M1.33333 8C1.33333 4.3181 4.3181 1.33333 8 1.33333M14.6667 8C14.6667 11.6819 11.6819 14.6667 8 14.6667M14.6667 8"
+ },
+ "afterToggleBack": {
+  "attrs": {
+   "type": "button",
+   "class": "...",
+   "data-active": "false"
+  }
+ },
+ "tooltipWrap": "<div id=\"bits-c828\" data-state=\"closed\" data-delay-duration=\"200\" data-tooltip-trigger=\"\" tabindex=\"0\" type=\"button\" class=\"flex\"><button type=\"button\" class=\"flex shrink-0 items-center justify-center p-1.5 rounded-full border-[0.5px] border-border-default bg-"
+}

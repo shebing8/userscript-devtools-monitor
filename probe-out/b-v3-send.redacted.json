@@ -1,0 +1,19 @@
+STEP boot: {"stats": {"config": 1, "models": 1, "chats": 3, "creates": 0, "forced": 0}, "state": {"level": "off", "web": false}}
+STEP newChat: {"clicked": true}
+STEP hrefAfterNew: "https://zchat.z.ai/"
+STEP setLow: {"label": "深度思考 · 低", "state": "low"}
+STEP setWeb: {"via": "native", "active": "false", "state": false}
+STEP send: {"clicked": true}
+STEP hrefAfterSend: "https://zchat.z.ai/c/19979ee9-73f3-4089-91c0-8a89dcbf5fea"
+STEP lastBody: {"effort": "low", "thinking": true, "web": true}
+STEP statsAfter: {"config": 1, "models": 1, "chats": 7, "creates": 0, "forced": 1}
+STEP slider: {"error": "no menu"}
+
+
+==== POSTS ====
+
+--- POST https://zchat.z.ai/api/v1/chats/new
+{"chat":{"id":"","title":"新聊天","models":["glm-5.3"],"params":{},"history":{"messages":{"7ffca0bb-5351-457b-aece-4db0b64afb5c":{"id":"7ffca0bb-5351-457b-aece-4db0b64afb5c","parentId":null,"childrenIds":[],"role":"user","content":"只回复两个字：收到","timestamp":1792761650,"models":["glm-5.3"]}},"currentId":"7ffca0bb-5351-457b-aece-4db0b64afb5c"},"tags":[],"flags":[],"features":[],"mcp_servers":[],"enable_thinking":true,"reasoning_effort":"max","auto_web_search":true,"message_version":1,"extra":{},"timestamp":1792761650387,"type":"default"}}
+
+--- POST https://zchat.z.ai/api/v2/chat/completions?timestamp=1792761650530&requestId=40e1eba3-5159-4a3f-b12b-438beb632f03&user_id=d70078d1-7e0e-48ea-b575-1b45ae0f22cd&version=0.0.1&platfor
+{"stream":true,"model":"glm-5.3","messages":[{"role":"user","content":"只回复两个字：收到"}],"signature_prompt":"只回复两个字：收到","params":{},"extra":{},"features":{"image_generation":false,"web_search":false,"auto_web_search":true,"preview_mode":true,"flags":[],"vlm_tools_enable":false,"vlm_web_search_enable":false,"vlm_website_mode":false,"enable_thinking":true,"reasoning_effort":"low"},"variables":{"{{USER_NAME}}":"旅行者6881","{{USER_LOCATION}}":"Unknown","{{CURRENT_DATETIME}}":"2026-10-23 21:20:50","{{CURRENT_DATE}}":"2026-10-23","{{CURRENT_TIME}}":"21:20:50","{{CURRENT_WEEKDAY}}":"Friday","{{CURRENT_TIMEZONE}}":"Asia/Shanghai","{{USER_LANGUAGE}}":"zh-CN"},"chat_id":"19979ee9-73f3-4089-91c0-8a89dcbf5fea","id":"8f850944-7bca-402b-b3d4-99f0bc407fbf","current_user_message_id":"7ffca0bb-5351-457b-aece-4db0b64afb5c","current_user_message_parent_id":null,"background_tasks":{"title_generation":true,"tags_generation":true}}

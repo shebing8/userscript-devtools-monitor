@@ -1,0 +1,27 @@
+{
+ "stats": {
+  "config": 1,
+  "models": 1,
+  "chats": 16,
+  "creates": 0,
+  "forced": 0
+ },
+ "state": {
+  "level": "high",
+  "web": false
+ },
+ "chips": [
+  {
+   "kind": "web",
+   "text": "联网搜索",
+   "active": "false"
+  },
+  {
+   "kind": "think",
+   "text": "深度思考 · 高",
+   "active": "true"
+  }
+ ],
+ "composerText": "WeChat 联网搜索 深度思考 · 高 GLM-5.3",
+ "btns": 9
+}

@@ -1,0 +1,21 @@
+{
+ "state": {
+  "level": "max",
+  "web": false
+ },
+ "chips": [
+  {
+   "kind": "web",
+   "text": "联网搜索",
+   "active": "false"
+  },
+  {
+   "kind": "think",
+   "text": "深度思考 · 最高",
+   "active": "true"
+  }
+ ],
+ "nativeGlobeHidden": true,
+ "nativeGlobeActive": "false",
+ "composer": "WeChat 联网搜索 深度思考 · 最高 GLM-5.3"
+}

@@ -1,0 +1,86 @@
+{
+  "url": "chrome-extension://jinjaccalgkegednnccohejagnlnfdag/confirm/index.html#jchr9NnCsyJAUMbM",
+  "info": {
+    "title": "Z.ai 经典输入框完整还原 - 安装脚本 - 暴力猴",
+    "text": "安装脚本 Z.ai 经典输入框完整还原, 3.1.0 http://127.0.0.1:8791/zai-restore-classic-composer.user.js 还原经典 composer：常驻「联网搜索」+「深度思考 · 档位」两个 pill 控件（原生裸图标收编进 pill），剥离 chat/models 的 hidden 标记、关掉 unified_agent，并在建会话/发送请求里强制写入 enable_thinking / reasoning_effort / web_search / auto_web_search @grant none @match https://chat.z.ai/* https://zchat.z.ai/* 安装 关闭 编辑 ✚ 跟踪外部编辑 关闭 脚本已安装。 21:33:23 21 forceInBody: true, // 发送体以本脚本档位为准 22 syncNativeSlider: true, // 把档位回写进 chat.enable_thinking / chat.reasoning_effort，让原生滑块显示一致 23 labeledPills: true, // 用带文字的旧版 pill 控件，并把原生裸图标藏掉，避免两个联网开关 24 }; 25 ​ 26 const LEVELS = [ 27 { key: ",
+    "buttons": [
+      {
+        "i": 0,
+        "tag": "BUTTON",
+        "text": "安装",
+        "cls": "",
+        "dis": true
+      },
+      {
+        "i": 1,
+        "tag": "BUTTON",
+        "text": "关闭",
+        "cls": "",
+        "dis": true
+      },
+      {
+        "i": 2,
+        "tag": "BUTTON",
+        "text": "编辑",
+        "cls": "",
+        "dis": true
+      },
+      {
+        "i": 3,
+        "tag": "BUTTON",
+        "text": "✚ 跟踪外部编辑",
+        "cls": "",
+        "dis": false
+      },
+      {
+        "i": 4,
+        "tag": "BUTTON",
+        "text": "关闭",
+        "cls": "",
+        "dis": false
+      },
+      {
+        "i": 5,
+        "tag": "BUTTON",
+        "text": "<",
+        "cls": "",
+        "dis": true
+      },
+      {
+        "i": 6,
+        "tag": "BUTTON",
+        "text": ">",
+        "cls": "",
+        "dis": true
+      },
+      {
+        "i": 7,
+        "tag": "BUTTON",
+        "text": ".*",
+        "cls": "toggle-button",
+        "dis": false
+      },
+      {
+        "i": 8,
+        "tag": "BUTTON",
+        "text": "Aa",
+        "cls": "toggle-button",
+        "dis": false
+      },
+      {
+        "i": 9,
+        "tag": "BUTTON",
+        "text": "×",
+        "cls": "",
+        "dis": false
+      }
+    ],
+    "scriptName": [
+      "安装脚本\nZ.ai 经典输入框完整还原, 3.1.0",
+      "on",
+      "on",
+      "on",
+      "on"
+    ]
+  }
+}

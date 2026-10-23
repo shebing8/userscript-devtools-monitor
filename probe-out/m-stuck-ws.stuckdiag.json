@@ -1,0 +1,386 @@
+{
+  "script": "../zai-restore-classic-composer.user.js",
+  "sent": {
+    "clicked": true,
+    "t": 1792764746418
+  },
+  "curve": [
+    {
+      "t": 14880,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 16886,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 18891,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 20898,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 22907,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 24924,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 26934,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 28944,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 30960,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 32968,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 34972,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 36978,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 38991,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 41006,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 43015,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 45021,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 47033,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 49045,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 51059,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 53063,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 55077,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 57091,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 59096,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 61101,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    },
+    {
+      "t": 63111,
+      "afterLen": 0,
+      "hasText": false,
+      "busy": false,
+      "stopBtn": false,
+      "sample": ""
+    }
+  ],
+  "events": [
+    {
+      "t": 204,
+      "k": "log.warning",
+      "text": "other Manifest: property 'start_url' ignored, should be same origin as document.",
+      "url": "https://z-cdn.chatglm.cn/z-ai/frontend/static/manifest.json"
+    },
+    {
+      "t": 204,
+      "k": "net.fail",
+      "u": "https://www.googletagmanager.com/gtag/js?id=G-Z8QTHYBHP3",
+      "err": "net::ERR_CONNECTION_CLOSED",
+      "type": "Script"
+    },
+    {
+      "t": 204,
+      "k": "log.error",
+      "text": "network Failed to load resource: net::ERR_CONNECTION_CLOSED",
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-Z8QTHYBHP3"
+    },
+    {
+      "t": 204,
+      "k": "net.fail",
+      "u": "https://www.googletagmanager.com/gtm.js?id=GTM-T9CBCLPX",
+      "err": "net::ERR_CONNECTION_CLOSED",
+      "type": "Script"
+    },
+    {
+      "t": 204,
+      "k": "log.error",
+      "text": "network Failed to load resource: net::ERR_CONNECTION_CLOSED",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-T9CBCLPX"
+    },
+    {
+      "t": 523,
+      "k": "net.send",
+      "m": "GET",
+      "u": "https://zchat.z.ai/api/v1/chats/f5368b08-004d-4470-aa96-61bee1e6d77e"
+    },
+    {
+      "t": 524,
+      "k": "net.send",
+      "m": "GET",
+      "u": "https://zchat.z.ai/api/v1/chats/all/tags"
+    },
+    {
+      "t": 616,
+      "k": "net.send",
+      "m": "GET",
+      "u": "https://zchat.z.ai/api/v1/chats/subagents?chat_id=f5368b08-004d-4470-aa96-61bee1e6d77e"
+    },
+    {
+      "t": 713,
+      "k": "net.send",
+      "m": "GET",
+      "u": "https://zchat.z.ai/api/v1/chats/f5368b08-004d-4470-aa96-61bee1e6d77e/tags"
+    },
+    {
+      "t": 715,
+      "k": "net.send",
+      "m": "GET",
+      "u": "https://zchat.z.ai/api/v1/chats/pinned"
+    },
+    {
+      "t": 893,
+      "k": "net.send",
+      "m": "GET",
+      "u": "https://zchat.z.ai/api/v1/chats/?page=1&type=default"
+    },
+    {
+      "t": 895,
+      "k": "net.send",
+      "m": "POST",
+      "u": "https://zchat.z.ai/api/v1/chats/f5368b08-004d-4470-aa96-61bee1e6d77e/messages/batch"
+    },
+    {
+      "t": 1039,
+      "k": "net.resp",
+      "s": 200,
+      "ct": "application/json",
+      "u": "https://zchat.z.ai/api/v1/chats/f5368b08-004d-4470-aa96-61bee1e6d77e/messages/batch"
+    },
+    {
+      "t": 1357,
+      "k": "net.fail",
+      "u": "https://icon.z.ai/instagram.com",
+      "err": "net::ERR_BLOCKED_BY_ORB",
+      "type": "Image"
+    },
+    {
+      "t": 1365,
+      "k": "net.fail",
+      "u": "https://icon.z.ai/x.com",
+      "err": "net::ERR_BLOCKED_BY_ORB",
+      "type": "Image"
+    },
+    {
+      "t": 1365,
+      "k": "net.fail",
+      "u": "https://icon.z.ai/reddit.com",
+      "err": "net::ERR_BLOCKED_BY_ORB",
+      "type": "Image"
+    },
+    {
+      "t": 4790,
+      "k": "net.fail",
+      "u": "https://j2c03hoppk-default-cn.rum.aliyuncs.com/",
+      "err": "net::ERR_ABORTED",
+      "type": "Fetch"
+    },
+    {
+      "t": 12871,
+      "k": "sent",
+      "sent": {
+        "clicked": true,
+        "t": 1792764746418
+      }
+    },
+    {
+      "t": 12871,
+      "k": "net.send",
+      "m": "GET",
+      "u": "https://zchat.z.ai/api/v1/chats/f5368b08-004d-4470-aa96-61bee1e6d77e"
+    },
+    {
+      "t": 13082,
+      "k": "net.send",
+      "m": "GET",
+      "u": "https://zchat.z.ai/api/v1/chats/?page=1&type=default"
+    },
+    {
+      "t": 13082,
+      "k": "net.send",
+      "m": "POST",
+      "u": "https://zchat.z.ai/api/v2/chat/completions?timestamp=1792764746624&requestId=396e627d-aa32-4ffa-bc63-a4202ca9c8f6&user_id=d70078d1"
+    },
+    {
+      "t": 14219,
+      "k": "net.resp",
+      "s": 200,
+      "ct": "text/event-stream",
+      "u": "https://zchat.z.ai/api/v2/chat/completions?timestamp=1792764746624&requestId=396e627d-aa32-4ffa-bc63-a4202ca9c"
+    },
+    {
+      "t": 14285,
+      "k": "net.done",
+      "u": "https://zchat.z.ai/api/v2/chat/completions?timestamp=1792764746624&requestId=396e627d-aa32-4ffa-bc63-a4202ca9c",
+      "enc": 891
+    },
+    {
+      "t": 14286,
+      "k": "net.send",
+      "m": "GET",
+      "u": "https://zchat.z.ai/api/v1/chats/?page=1&type=default"
+    },
+    {
+      "t": 18003,
+      "k": "net.fail",
+      "u": "https://j2c03hoppk-default-cn.rum.aliyuncs.com/",
+      "err": "net::ERR_ABORTED",
+      "type": "Fetch"
+    },
+    {
+      "t": 32953,
+      "k": "net.fail",
+      "u": "https://j2c03hoppk-default-cn.rum.aliyuncs.com/",
+      "err": "net::ERR_ABORTED",
+      "type": "Fetch"
+    },
+    {
+      "t": 63115,
+      "k": "socketProbe",
+      "socketProbe": {
+        "error": "SyntaxError: Invalid regular expression flags"
+      }
+    }
+  ]
+}

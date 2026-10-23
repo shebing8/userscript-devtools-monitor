@@ -1,0 +1,93 @@
+{
+  "steps": [
+    {
+      "n": "provision",
+      "v": {
+        "del": [
+          {
+            "id": "59d791c3-bb82-4ff2-b301-d002181488b4",
+            "status": 200
+          },
+          {
+            "id": "3a8b7c04-1eef-4355-9671-75c4bbf57b06",
+            "status": 200
+          },
+          {
+            "id": "4cc7b79a-e964-4812-ac1b-39b0ccc034c0",
+            "status": 200
+          }
+        ],
+        "createStatus": 200,
+        "cid": "2f7b303b-6daf-4c69-9fd6-96698091d45a",
+        "check": {
+          "status": 200,
+          "type": "default"
+        }
+      }
+    },
+    {
+      "n": "wrapBoot",
+      "v": true
+    },
+    {
+      "n": "send",
+      "v": {
+        "clicked": true
+      }
+    },
+    {
+      "n": "settled",
+      "v": {
+        "tail": "思考过程\n已运行 1 条命令\n\n已调用代码沙箱工具执行 bash 命令，执行成功。\n\n命令：echo FLAG6_OK_437\n\n输出结果：\n\ntext\nFLAG6_OK_437",
+        "running": false,
+        "hasTool": true,
+        "hasToken": true
+      }
+    },
+    {
+      "n": "wrap",
+      "v": {
+        "patched": 0,
+        "hits": [],
+        "err": []
+      }
+    },
+    {
+      "n": "chatTypeAfter",
+      "v": {
+        "status": 200,
+        "type": "general_agent"
+      }
+    },
+    {
+      "n": "outbound",
+      "v": [
+        {
+          "url": "https://zchat.z.ai/api/v1/chats/new",
+          "type": "default"
+        },
+        {
+          "url": "https://zchat.z.ai/api/v2/chat/completions",
+          "flags": [
+            "general_agent"
+          ]
+        }
+      ]
+    },
+    {
+      "n": "sse",
+      "v": [
+        {
+          "len": 2943,
+          "hasToken": true,
+          "toolEvents": [
+            "\"tool_call\"",
+            "\"tool_response\""
+          ],
+          "quotaError": false,
+          "errSnippet": null
+        }
+      ]
+    }
+  ]
+}

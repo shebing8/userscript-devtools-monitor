@@ -1,0 +1,19 @@
+{
+ "chatEvents": [
+  "CustomEvent(\"chat:start\"",
+  "CustomEvent(\"chat:finish\""
+ ],
+ "addListeners": [],
+ "startCtx": [
+  "m-tools\")switch(Ot){case\"selected\":v(Xt,!0);break;case\"hidden\":v(Xt,!1),v(cr,!0);break}}),qe.length&&v(b9,!0)}async function ga(qe){if(console.log(\"continueUnFinishedChat\",qe),qe){const ht=qe.id;nn(De,s(De).messages[ht].done=!1),Be.dispatchEvent(new CustomEvent(\"chat:start\",{detail:{id:ht}})),Ao.set(!0),console.log(\"setChatReplying\",!0),await hr(),v(Ct,new AbortController);const vt=await k2e(localStorage.token,ht,`${bn}/api`,s(Ct)).catch(async $r=>{Ao.set(!1),console.error(\"continueUnFinishedCha",
+  "ex(Ia=>JSON.stringify(Ia)===JSON.stringify(Cr))===ts);const Ha={};Object.values(tn.messages).forEach(Cr=>{var ts;(ts=Cr.files)==null||ts.forEach(Xs=>{Ha[Xs.id]=Cr.id})}),wn.forEach(Cr=>{Cr.ref_user_msg_id=Ha[Cr.id]??mr.id}),Rs(),Be.dispatchEvent(new CustomEvent(\"chat:start\",{detail:{id:vt}})),await hr();const Jn=((E4=(S4=ht==null?void 0:ht.info)==null?void 0:S4.params)==null?void 0:E4.stream_response)??((NP=(PP=o())==null?void 0:PP.params)==null?void 0:NP.stream_response)??((OP=s(rr))==null?void"
+ ],
+ "finishCtx": [
+  "&&(vt.done=!0,u().emit(Rt.COMPLETION_FINISH),Yn===\"done\"&&cx.includes(((ys=i())==null?void 0:ys[0])??\"\")&&u().emit(Rt.WORKSPACE_PREVIEW_RELOAD),w()[vt.id]&&(gU.set(!0),Rn({bt:\"auto\",md:\"\",ct:\"ppt_gen_complete\",ctvl:Object.keys(w()[vt.id]??{}).length.toString()})),(Rr=o())!=null&&Rr.responseAutoCopy&&hl(vt.content),Be.dispatchEvent(new CustomEvent(\"chat:finish\",{detail:{id:vt.id,content:vt.content}})),nn(De,s(De).messages[vt.id]=vt),Ao.set(!1)),s(xe)&&Rs()},Qa=(qe,ht,vt)=>{var Gt,Qt,$r,Hr,Lr,vr,mr,tn,Yn;if(!ht)return;const Ot=(Gt=ht.function)==null?void 0:Gt.parsed_arguments,Ht=(Qt=ht.function)==null?void 0:Qt.name;if(!(typeof Ot!=\"object\"||!Ot))if(Ht===\"Write\")if(qe===\"response\"&&(($r=Ot==nu"
+ ],
+ "endCtx": [],
+ "doneCtx": [],
+ "replyingCtx": [
+  "!1),v(cr,!0);break}}),qe.length&&v(b9,!0)}async function ga(qe){if(console.log(\"continueUnFinishedChat\",qe),qe){const ht=qe.id;nn(De,s(De).messages[ht].done=!1),Be.dispatchEvent(new CustomEvent(\"chat:start\",{detail:{id:ht}})),Ao.set(!0),console.log(\"setChatReplying\",!0),await hr(),v(Ct,new AbortController);const vt=await k2e(localStorage.token,ht,`${bn}/api`,s(Ct)).catch(async $r=>{Ao.set(!1),console.error(\"continueUnFinishedChatAPIJustError\",$r)});if(!vt||!vt.body){console.error(\"continueUnFini"
+ ]
+}
